@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_CREDENTIALS_ID = 'roseaw-dockerhub'   //don't change this
-        DOCKER_IMAGE = 'cithit/taylo271/metallb-deploy'         //do change this
+        DOCKER_IMAGE = 'cithit/taylo271-metallb-deploy'         //do change this
         // Use Jenkins build number as part of the image tag
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/miamiohTaylo271/taylo271-lb.git'  //do change this
