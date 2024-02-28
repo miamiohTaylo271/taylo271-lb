@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: cithit/taylo271-metal:latest  #<---change this
+        image: cithit/taylo271/metallb-deploy  #<---change this
         ports:
         - containerPort: 80  # Expose NGINX on port 80      
 ---
