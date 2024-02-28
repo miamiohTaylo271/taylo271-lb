@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/Taylo271/metallb-deploy'         //do change this
         // Use Jenkins build number as part of the image tag
         IMAGE_TAG = "build-${BUILD_NUMBER}"
-        GITHUB_URL = 'https://github.com/miamiohTaylo271/metallb-deploy.git'  //do change this
+        GITHUB_URL = 'https://github.com/miamiohTaylo271/taylo271-lb.git'  //do change this
         
         KUBECONFIG = credentials('taylo271-225')  //do change this
     }
